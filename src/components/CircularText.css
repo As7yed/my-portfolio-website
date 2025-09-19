@@ -1,0 +1,83 @@
+.circular-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circular-text {
+  position: relative;
+  cursor: pointer;
+  transform-origin: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-letter {
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* Word-specific gradient colors */
+.word-develop {
+  background: linear-gradient(45deg, #3b82f6, #1d4ed8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.word-refactor {
+  background: linear-gradient(45deg, #6366f1, #4f46e5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.word-test {
+  background: linear-gradient(45deg, #8b5cf6, #7c3aed);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.word-amaze {
+  background: linear-gradient(45deg, #a855f7, #9333ea);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback */
+}
+@supports not (background-clip: text) {
+  .word-amaze {
+    color: #a855f7;
+  }
+}
+
+.word-separator {
+  color: #60a5fa;
+  opacity: 0.6;
+}
+
+/* Optional: Add some hover effects for individual letters */
+.circular-text:hover .circular-letter {
+  color: #60a5fa; /* Light blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .circular-letter {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circular-letter {
+    font-size: 14px;
+  }
+}
