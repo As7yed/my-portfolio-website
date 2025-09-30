@@ -36,7 +36,7 @@ Interactive portfolio website showcasing full-stack development projects with mo
    - Technologies: Next.js, TypeScript, Tailwind CSS, React Bits
    - This very website you're viewing!
 
-4. **Agile Team Collaboration Tools**
+4. **Agile Team Collaboration Tools (In Progress)**
    - Technologies: React.js, Node.js, MongoDB, Kubernetes
    - Real-time collaboration features for team workflows
 
