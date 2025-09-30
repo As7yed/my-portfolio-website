@@ -58,7 +58,7 @@ export default function ProjectsSection() {
       status: "Live"
     },
     {
-      title: "Agile Team Collaboration Tools",
+      title: "Agile Team Collaboration Tools (In Progress)",
       description: "Contributed to internal tools development for improving team collaboration and project management using modern web technologies.",
       technologies: ["React.js", "Node.js", "MongoDB", "APIs", "Kubernetes"],
       highlights: [
