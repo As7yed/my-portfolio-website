@@ -70,8 +70,6 @@ export default function Home() {
 
   // Generate deterministic raindrops to avoid hydration issues
   const raindrops = Array.from({ length: 200 }, (_, i) => {
-    // Use index-based calculations for consistent server/client rendering
-    const normalizedIndex = i / 50; // 0 to 1
     return {
       id: i,
       left: (i * 7.3) % 100, // Distribute across width
@@ -186,7 +184,7 @@ export default function Home() {
       <div className="w-32 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto mb-6 rounded-full"></div>
       <p className="text-xl text-gray-300 max-w-1xl mx-center">
         <span className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent font-medium">
-          Let's connect and discuss opportunities, projects, or just have a great conversation!
+          Let&apos;s connect and discuss opportunities, projects, or just have a great conversation!
         </span>
       </p>
     </div>

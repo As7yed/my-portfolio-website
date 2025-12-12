@@ -64,9 +64,9 @@ export default function AboutSection() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-left mb-8 rounded-full"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-left leading-relaxed">
-              <strong className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(96 165 250), rgb(129 140 248))"} as any}>Driven Information Technology student</strong> with a passion for <strong className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(196 181 253), rgb(244 114 182))"} as any}>problem-solving</strong> and a proven track record 
-              in <strong className="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(129 140 248), rgb(168 85 247))"} as any}>customer-focused roles</strong>. Eager to leverage <strong className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(167 139 250), rgb(244 114 182))"} as any}>technical expertise and communication skills</strong> while 
-              fostering strong partnerships and delivering <strong className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(244 114 182), rgb(196 181 253))"} as any}>innovative solutions</strong>.
+              <strong className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(96 165 250), rgb(129 140 248))"} as React.CSSProperties}>Driven Information Technology student</strong> with a passion for <strong className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(196 181 253), rgb(244 114 182))"} as React.CSSProperties}>problem-solving</strong> and a proven track record
+              in <strong className="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(129 140 248), rgb(168 85 247))"} as React.CSSProperties}>customer-focused roles</strong>. Eager to leverage <strong className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(167 139 250), rgb(244 114 182))"} as React.CSSProperties}>technical expertise and communication skills</strong> while
+              fostering strong partnerships and delivering <strong className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(244 114 182), rgb(196 181 253))"} as React.CSSProperties}>innovative solutions</strong>.
             </p>
           </div>
 
@@ -79,22 +79,22 @@ export default function AboutSection() {
               </h3>
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  Currently serving as a <strong className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(96 165 250), rgb(129 140 248))"} as any}>Software Engineering Intern at Jatango</strong>, 
-                  where I contribute to building scalable applications and data-driven solutions. Known for 
+                  Currently serving as a <strong className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(96 165 250), rgb(129 140 248))"} as React.CSSProperties}>Software Engineering Intern at Jatango</strong>,
+                  where I contribute to building scalable applications and data-driven solutions. Known for
                   exceptional collaboration, a strong work ethic, and a proactive approach to exceeding expectations.
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  As an <strong className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(196 181 253), rgb(244 114 182))"} as any}>Apple Computing Certified Sales Advisor at Best Buy</strong>, 
-                  I've developed outstanding customer service skills and experience collaborating with diverse teams. 
-                  This role has strengthened my ability to translate complex technical concepts into user-friendly 
+                  As an <strong className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(196 181 253), rgb(244 114 182))"} as React.CSSProperties}>Apple Computing Certified Sales Advisor at Best Buy</strong>,
+                  I&apos;ve developed outstanding customer service skills and experience collaborating with diverse teams.
+                  This role has strengthened my ability to translate complex technical concepts into user-friendly
                   solutions while building strong customer relationships.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Pursuing a <strong className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(167 139 250), rgb(244 114 182))"} as any}>BA in Information Technology at Strayer University </strong> 
-                  with previous foundation in <strong className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(129 140 248), rgb(168 85 247))"} as any}>Computer and Data Science from Cleveland State University</strong>. 
-                  I'm committed to utilizing agile methodologies, fostering innovation, and contributing to team and organizational success 
+                  Pursuing a <strong className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(167 139 250), rgb(244 114 182))"} as React.CSSProperties}>BA in Information Technology at Strayer University </strong>
+                  with previous foundation in <strong className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent font-semibold shine" style={{"--gradient-colors": "linear-gradient(to right, rgb(129 140 248), rgb(168 85 247))"} as React.CSSProperties}>Computer and Data Science from Cleveland State University</strong>.
+                  I&apos;m committed to utilizing agile methodologies, fostering innovation, and contributing to team and organizational success
                   through technical expertise and effective communication.
                 </p>
               </div>
