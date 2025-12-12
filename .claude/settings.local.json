@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(rd /s /q .next)",
+      "Bash(rimraf:*)"
+    ]
+  }
+}
