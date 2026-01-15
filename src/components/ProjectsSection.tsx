@@ -58,17 +58,17 @@ export default function ProjectsSection() {
       status: "Live"
     },
     {
-      title: "Agile Team Collaboration Tools (In Progress)",
-      description: "Contributed to internal tools development for improving team collaboration and project management using modern web technologies.",
-      technologies: ["React.js", "Node.js", "MongoDB", "APIs", "Kubernetes"],
+      title: "TurnKey Pros Website",
+      description: "Built a modern, responsive business website for a property maintenance company using Next.js 14 with SSR and a custom design system.",
+      technologies: ["Next.js 14", "TypeScript", "Tailwind CSS v4", "Framer Motion", "Netlify"],
       highlights: [
-        "Developed real-time collaboration features for team workflows",
-        "Integrated with existing project management system APIs",
-        "Implemented automated workflow notifications and alerts",
-        "Ensured scalability with Kubernetes deployment architecture"
+        "Created responsive landing page with animated service cards",
+        "Implemented custom design system with fractal noise textures",
+        "Built interactive contact form with scroll-triggered animations",
+        "Configured Netlify deployment with SSR support"
       ],
-      category: "Team Tools",
-      status: "Active Development"
+      category: "Full-Stack Architecture",
+      status: "Completed"
     },
   ];
 
